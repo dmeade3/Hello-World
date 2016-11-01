@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Hello World:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Hello_World_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Hello World.jar">
+        <element id="module-output" name="Hello World" />
+      </element>
+      <element id="file-copy" path="$USER_HOME$/Downloads/javassist.jar" />
+    </root>
+  </artifact>
+</component>
