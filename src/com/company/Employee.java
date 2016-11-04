@@ -13,6 +13,8 @@ public class Employee {
         this.pay = pay;
         this.name = name;
         this.position = position;
+
+        setPosition(position);
     }
 
     public double getPay ( ) {
