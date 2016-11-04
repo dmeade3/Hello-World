@@ -15,7 +15,7 @@ public class Employee {
         this.position = position;
     }
 
-    public double getPay() {
+    public double getPay ( ) {
         return pay;
     }
 
@@ -23,7 +23,7 @@ public class Employee {
         this.pay = pay;
     }
 
-    public String getName() {
+    public String getName ( ) {
         return name;
     }
 
@@ -31,7 +31,7 @@ public class Employee {
         this.name = name;
     }
 
-    public String getPosition() {
+    public String getPosition () {
         return position;
     }
 
@@ -39,6 +39,40 @@ public class Employee {
         this.position = position;
     }
 
+    public int math_example()
+    {
+        switch ("test")
+        {
+            case "test":
+                break;
+        }
+
+        Walmart walmart = new Walmart();
+
+        walmart.addUpEmployees();
+
+
+
+        if(true)
+        {
+
+        }
+
+        if (true)
+        {
+
+        }
+
+        boolean i = true;
+        while(i)
+        {
+            i = false;
+        }
+
+
+
+        return ((1+1) / 8) - 16 * 4987;
+    }
 
     public class test2 {
 
@@ -84,31 +118,29 @@ public class Employee {
 
 
         }
+    }
+}
 
+class test1 {
 
+    int test1;
+    int test2;
+
+    public int getTest1() {
+        return test1;
     }
 
-    public class test1 {
-
-        int test1;
-        int test2;
-
-        public int getTest1() {
-            return test1;
-        }
-
-        public void setTest1(int test1) {
-            this.test1 = test1;
-        }
-
-        public int getTest2() {
-            return test2;
-        }
-
-        public void setTest2(int test2) {
-            this.test2 = test2;
-        }
-
-
+    public void setTest1(int test1) {
+        this.test1 = test1;
     }
+
+    public int getTest2() {
+        return test2;
+    }
+
+    public void setTest2(int test2) {
+        this.test2 = test2;
+    }
+
+
 }

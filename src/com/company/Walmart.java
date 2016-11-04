@@ -49,7 +49,7 @@ public class Walmart {
     public void addUpEmployees() {
 
         int i = 0;
-        for (Employee emp: employees) {
+        for(Employee emp: employees) {
             i++;
         }
 
