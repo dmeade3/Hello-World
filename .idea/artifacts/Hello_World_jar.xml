@@ -5,7 +5,7 @@
       <element id="archive" name="Hello World.jar">
         <element id="module-output" name="Hello World" />
       </element>
-      <element id="file-copy" path="$USER_HOME$/Downloads/javassist.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Excavator/lib/javassist.jar" />
     </root>
   </artifact>
 </component>

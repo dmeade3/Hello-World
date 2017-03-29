@@ -5,10 +5,9 @@ import java.util.ArrayList;
 /**
  * Created by dcmeade on 10/31/2016.
  */
-public class Walmart {
-
+public class Walmart
+{
     private ArrayList<Employee> employees = new ArrayList<>();
-
 
     public Walmart() {
 
@@ -41,16 +40,21 @@ public class Walmart {
 
         Employee a10 = new Employee(79.5, "a10", "test");
         employees.add(a1);
-
-        addUpEmployees();
-
     }
 
-    public void addUpEmployees() {
+    public void addUpEmployees()
+    {
 
         int i = 0;
-        for(Employee emp: employees) {
-            i++;
+        for(Employee emp: employees)
+        {
+            for(Employee emp1: employees)
+            {
+                for(Employee emp2: employees)
+                {
+                    i++;
+                }
+            }
         }
 
         System.out.println(i);
