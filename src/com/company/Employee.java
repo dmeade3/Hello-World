@@ -75,77 +75,9 @@ public class Employee {
 
         return ((1+1) / 8) - 16 * 4987;
     }
-
-    public class test2 {
-
-        int test1;
-        int test2;
-
-        public int getTest1() {
-            return test1;
-        }
-
-        public void setTest1(int test1) {
-            this.test1 = test1;
-        }
-
-        public int getTest2() {
-            return test2;
-        }
-
-        public void setTest2(int test2) {
-            this.test2 = test2;
-        }
-
-        public class test3 {
-
-            int test1;
-            int test2;
-
-            public int getTest1() {
-                return test1;
-            }
-
-            public void setTest1(int test1) {
-                this.test1 = test1;
-            }
-
-            public int getTest2() {
-                return test2;
-            }
-
-            public void setTest2(int test2) {
-                this.test2 = test2;
-            }
-
-
-        }
-    }
 }
 
-class test1 {
 
-    int test1;
-	int test2;
-
-	public int getTest1() {
-		return test1;
-	}
-
-	public void setTest1(int test1) {
-		this.test1 = test1;
-	}
-
-	public int getTest2() {
-		return test2;
-	}
-
-	public void setTest2(int test2) {
-		this.test2 = test2;
-	}
-
-
-}
 
 
 
