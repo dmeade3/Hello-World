@@ -1,4 +1,4 @@
-package com.company;
+package com.company;/*package com.company;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -14,9 +14,11 @@ import javafx.stage.Stage;
  * HelloWorld is a javaFX app that needs parameters that are real objects
  */
 
-class AppParameterLauncher {
+/*class AppParameterLauncher {
     public static void main(String[] args) {
         Main.launch(new ObjectThatContainsData("brave"), new ObjectThatContainsData("new"));
+
+
     }
 }
 
@@ -31,6 +33,8 @@ public class Main extends Application {
         Main.staticData1 = data1;
         Main.staticData2 = data2;
         Application.launch(Main.class);
+
+
     }
 
     private final ObjectThatContainsData data1 = Main.staticData1;
@@ -39,7 +43,11 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
 
-        String Text = "Hello "+data1+" "+data2+" World!";
+	    Walmart walmart = new Walmart();
+
+	    walmart.addUpEmployees();
+
+        /*String Text = "Hello "+data1+" "+data2+" World!";
         primaryStage.setTitle(Text);
         Button btn = new Button();
         btn.setText("Say '"+Text+"'");
@@ -56,11 +64,11 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root, 300, 250));
         primaryStage.setX(0);
         primaryStage.setY(0);
-        primaryStage.show();
-    }
+        primaryStage.show();*/
+/*    }
 }
 
-class ObjectThatContainsData {
+/*class ObjectThatContainsData {
     public final String data;
 
     ObjectThatContainsData(String data) {
@@ -71,4 +79,14 @@ class ObjectThatContainsData {
     public String toString() {
         return data;
     }
+}*/
+
+public class Main
+{
+	public static void main(String... args)
+	{
+		Walmart walmart = new Walmart();
+
+		walmart.addUpEmployees();
+	}
 }

@@ -59,4 +59,12 @@ public class Walmart
 
         System.out.println(i);
     }
+
+	public static void main(String... args)
+	{
+		Walmart walmart = new Walmart();
+
+		walmart.addUpEmployees();
+	}
+
 }
