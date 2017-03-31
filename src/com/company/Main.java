@@ -6,8 +6,6 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-
-
 /**
  * Created by WorkDay on 8/11/16.<br>
  * <br>
@@ -15,16 +13,15 @@ import javafx.stage.Stage;
  */
 
 class AppParameterLauncher {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Main.launch(new ObjectThatContainsData("brave"), new ObjectThatContainsData("new"));
-
-
     }
 }
 
 
-public class Main extends Application {
-
+public class Main extends Application
+{
     private static ObjectThatContainsData staticData1 = null;
     private static ObjectThatContainsData staticData2 = null;
 
@@ -43,7 +40,7 @@ public class Main extends Application {
     public void start(Stage primaryStage)
 	{
 
-		for (int i = 0; i < 10000; i++)
+		for (int i = 0; i < 100; i++)
 		{
 			Walmart walmart = new Walmart();
 
@@ -51,11 +48,11 @@ public class Main extends Application {
 		}
 
 
-        String Text = "Hello "+data1+" "+data2+" World!";
-        primaryStage.setTitle(Text);
+        String text = "Hello World!";
+        primaryStage.setTitle(text);
         Button btn = new Button();
-        btn.setText("Say '"+Text+"'");
-        btn.setOnAction(event -> System.out.println("Hello World!"));
+        btn.setText("Say '" + text + "'");
+        btn.setOnAction(event -> System.out.println(text));
 
         StackPane root = new StackPane();
         root.getChildren().add(btn);
@@ -83,8 +80,11 @@ class ObjectThatContainsData {
 {
 	public static void main(String... args)
 	{
-		Walmart walmart = new Walmart();
+        for (int i = 0; i < 1000; i++)
+        {
+            Walmart walmart = new Walmart();
 
-		walmart.addUpEmployees();
+            walmart.addUpEmployees();
+        }
 	}
 }*/
