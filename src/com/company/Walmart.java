@@ -48,13 +48,7 @@ public class Walmart
         int i = 0;
         for(Employee emp: employees)
         {
-            for(Employee emp1: employees)
-            {
-                for(Employee emp2: employees)
-                {
-                    i++;
-                }
-            }
+            i++;
         }
 
         System.out.println(i);
