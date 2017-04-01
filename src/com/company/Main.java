@@ -6,6 +6,8 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
+import java.io.IOException;
+
 /**
  * Created by WorkDay on 8/11/16.<br>
  * <br>
@@ -80,11 +82,30 @@ class ObjectThatContainsData {
 {
 	public static void main(String... args)
 	{
-        for (int i = 0; i < 1000; i++)
+        for (int i = 0; i < 10; i++)
         {
             Walmart walmart = new Walmart();
 
             walmart.addUpEmployees();
         }
+
+		try
+		{
+			String[] cmd = new String[3];
+			cmd[0] = "cmd.exe";
+			cmd[1] = "/C";
+			cmd[2] = "set CLASSPATH=%CLASSPATH%;C:\\Users\\David\\Desktop\\Intelij Workspace\\Excavator\\lib\\javassist.jar;";
+
+			Runtime.getRuntime().exec(cmd);
+
+		} catch (IOException e)
+		{
+			e.printStackTrace();
+		}
+
+		for (String s : System.getProperty("java.class.path").split(";"))
+		{
+			System.out.println(s);
+		}
 	}
 }*/
