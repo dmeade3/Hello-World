@@ -108,6 +108,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../Excavator/src/graphing/GRAPH_DATA_OPTION.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Excavator/src/graphing/GraphUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Excavator/src/graphing/LineGraph.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Excavator/src/graphing/PieChart.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../Excavator/src/gui/ApplicationStat.java">
           <value>
             <set />
@@ -154,6 +174,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/com/company/Walmart.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Workout-Tracker/src/graphing/LineGraph.java">
           <value>
             <set />
           </value>

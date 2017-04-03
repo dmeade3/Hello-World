@@ -42,13 +42,14 @@ public class Main extends Application
     public void start(Stage primaryStage)
 	{
 
-		for (int i = 0; i < 100; i++)
+		/*for (int i = 0; i < 100; i++)
 		{
 			Walmart walmart = new Walmart();
 
 			walmart.addUpEmployees();
-		}
+		}*/
 
+		System.err.println("REEEEE");
 
         String text = "Hello World!";
         primaryStage.setTitle(text);
